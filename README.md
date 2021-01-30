@@ -2,7 +2,7 @@
 This is a Python 3 wrapper to simplify handling input from the PlayStation 3 DualShock (Sixaxis) via Bluetooth. Credits to [ApproxEng/Triangula](https://github.com/ApproxEng/triangula).
 
 
-## Install
+## Install
 
 ```bash
 pip install py6axis
