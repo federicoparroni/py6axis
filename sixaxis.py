@@ -453,7 +453,7 @@ if __name__ == '__main__':
           /   |     |  '.           S O N Y          .'  |  _  |   \
          / ___| {u} |___ \                          / ___| /{}\ |___ \
         / |      |      | ;    __             __   ; | _         _ | ;
-        | | {l}-   -{g} | |   |{}|           |{}'> | ||{}|       ({})| |
+        | | {l}-   -{r} | |   |{}|           |{}'> | ||{}|       ({})| |
         | |___   |   ___| ;  SELECT         START  ; |___       ___| ;
         |\    | {d} |    / _____     /{}\     _____ \    | ({}) |    /|
         | \   |_____|  .','     ',   \__/   ,'     ','.  |_____|  .' |
@@ -486,7 +486,7 @@ if __name__ == '__main__':
 
             u=pressed_symbol('/|\\', '@@@', controller.is_pressed(SixAxis.BUTTON_D_UP)),
             d=pressed_symbol('\\|/', '@@@', controller.is_pressed(SixAxis.BUTTON_D_DOWN)),
-            g=pressed_symbol('<--', '@@@', controller.is_pressed(SixAxis.BUTTON_D_LEFT)),
+            l=pressed_symbol('<--', '@@@', controller.is_pressed(SixAxis.BUTTON_D_LEFT)),
             r=pressed_symbol('-->', '@@@', controller.is_pressed(SixAxis.BUTTON_D_RIGHT)),
         )
         os.system('clear')
